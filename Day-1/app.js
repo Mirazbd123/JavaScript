@@ -81,3 +81,34 @@ const carName = "lolex";
 console.log(carName);
 // carName = "BMW"; // will throw an error
 // console.log(carName);
+
+// Constant Objects and Arrays :::::
+// The keyword const is a little misleading.
+
+// It does not define a constant value. It defines a constant reference to a value.
+
+// Because of this you can NOT:
+
+// Reassign a constant value
+// Reassign a constant array
+// Reassign a constant object
+// But you CAN:
+
+// Change the elements of constant array
+// Change the properties of constant object
+
+// if - else
+
+let age2 = 10;
+if (age2 > 18.05) {
+    console.log("You are an adult");
+} else {
+    console.log("You are not an adult");
+}
+
+let myResult = 23.34;
+if (myResult >= 33) {
+    console.log("You passed");
+} else {
+    console.log("you are failed");
+}
