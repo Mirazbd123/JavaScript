@@ -6,6 +6,7 @@ console.log(var1.add(var1.x, var1.y));
 
 // name alliasing
 const { x, y, add } = require('./app-1'); // importing as object
+// import {x, y, add} from './app-1';
 const {x: x3, y: y3, add: add3} = require('./app-3'); // seems like port mapping
 
 console.log(x);
